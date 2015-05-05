@@ -3,7 +3,7 @@ Conf.Developer
 
 #!/bin/sh
 echo "-----------------------------------------------"
-echo "    Initial Configuration Ubuntu: By Mandado   "
+echo "    Initial Configuration ElementaryOS: By Eduardo Alexandre   "
 echo "-----------------------------------------------"
 # System upgrade
 echo "Updating repositories and upgrading system"
