@@ -1,0 +1,2 @@
+# Configura-oElementaryOs
+Conf.Developer
