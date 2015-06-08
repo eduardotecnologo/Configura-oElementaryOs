@@ -1,6 +1,7 @@
 # Configura-oElementaryOs
 Conf.Developer
 
+#Botão de Minimizar sudo apt-get install dconf-tools
 #!/bin/sh
 echo "-----------------------------------------------"
 echo "    Initial Configuration ElementaryOS: By Eduardo Alexandre   "
