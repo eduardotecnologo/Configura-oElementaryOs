@@ -1,6 +1,11 @@
 # Configura-oElementaryOs
 Conf.Developer
 
+#Instalação do Ubuntu Tweak 0.8.7 no Ubuntu 14.04 LTS
+sudo add-apt-repository ppa:tualatrix/ppa 
+sudo apt-get update 
+sudo apt-get install ubuntu-tweak
+
 #Botão de Minimizar sudo apt-get install dconf-tools
 #!/bin/sh
 echo "-----------------------------------------------"
