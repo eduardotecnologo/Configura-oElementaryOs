@@ -162,10 +162,16 @@ Result:Laravel development server started on http://localhost:8000/
 
 #instalando Laravel 5.1
 composer global require "laravel/installer=~1.1"
+composer create-project laravel/laravel --prefer-dist(Instalar via Composer)
+sudo apt-get install php5 apache2 mysql-server libssl-dev php5-mcrypt php5-curl curl
+sudo chmod -R 777 [tab] (Permisões)
+http://localhost:8000/
+php artisan serve(Ativar Servidor)
+
 
 #//Activar PHP Mcrpt
 sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available
-sudo php5enmod mcrypt
+http://localhost:8000/
 sudo service apache2 restart
 
 
