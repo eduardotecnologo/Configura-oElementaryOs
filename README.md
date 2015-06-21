@@ -160,6 +160,9 @@ echo "Você deve reiniciar seu computador para que as alterações entre em vigo
 php artisan serve
 Result:Laravel development server started on http://localhost:8000/
 
+#instalando Laravel 5.1
+composer global require "laravel/installer=~1.1"
+
 #//Activar PHP Mcrpt
 sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available
 sudo php5enmod mcrypt
