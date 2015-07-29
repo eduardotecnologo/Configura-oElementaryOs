@@ -175,3 +175,8 @@ http://localhost:8000/
 sudo service apache2 restart
 
 
+#//Subir novo Servidor Laravel
+php artisan serve --port=5000
+
+
+
