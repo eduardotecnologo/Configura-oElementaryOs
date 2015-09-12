@@ -12,6 +12,8 @@ sudo apt-get install ubuntu-tweak
  
 sudo apt-get install dconf-tools
 
+close,minimize:maximize
+
 #!/bin/sh
 ### System upgrade
 echo "Updating repositories and upgrading system"
