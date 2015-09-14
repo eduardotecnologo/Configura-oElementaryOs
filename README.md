@@ -8,6 +8,9 @@ sudo add-apt-repository ppa:tualatrix/ppa
 sudo apt-get update
  
 sudo apt-get install ubuntu-tweak
+### Programa para WebCam
+apt-get install cheese
+
 ### Botão de Minimizar
  
 sudo apt-get install dconf-tools
