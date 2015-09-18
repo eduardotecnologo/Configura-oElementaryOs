@@ -10,6 +10,8 @@ sudo apt-get update
 sudo apt-get install ubuntu-tweak
 ### Programa para WebCam
 apt-get install cheese
+### Instalação do LAMP
+sudo apt-get instal lamp-server^ phpmyadmin
 
 ### Botão de Minimizar
  
