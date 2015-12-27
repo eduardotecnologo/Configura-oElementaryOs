@@ -10,6 +10,10 @@ sudo apt-get update
 sudo apt-get install ubuntu-tweak
 ### Programa para WebCam
 apt-get install cheese
+
+### Instalação Codecs de Vídeo
+sudo apt-get install ubuntu-restricted-extras
+
 ### Instalação do LAMP
 sudo apt-get instal lamp-server^ phpmyadmin
 
