@@ -18,8 +18,11 @@ sudo apt-get install ubuntu-tweak
    apt-get install postgresql
 ### Após concluir a instalação, o próximo passo é alterar a senha do usuário "postgres":
    su postgres -c psql postgres
+
    ALTER USER postgres WITH PASSWORD 'senha'
+
    \q
+   
 ### Com o PostgreSQL instalado, agora vamos instalar o pgAdmin3:
    apt-get install pgadmin3
 
