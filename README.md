@@ -19,7 +19,8 @@ sudo apt-get install ubuntu-tweak
 ### Após concluir a instalação, o próximo passo é alterar a senha do usuário "postgres":
    su postgres -c psql postgres
 
-   ALTER USER postgres WITH PASSWORD 'senha'
+   alter user postgres with encrypted password 'senha';
+
 
    \q
    
