@@ -29,7 +29,12 @@ sudo apt-get install ubuntu-tweak
 
 
 ### Instalação do LAMP
-sudo apt-get instal lamp-server^ phpmyadmin
+sudo apt-get install lamp-server^ phpmyadmin7
+### Como remover o LAMP completamente com apenas 1 comando!
+Aviso: for only experts!
+dpkg -l *apache* *mysql* phpmyadmin | grep ^ii | awk '{ print $2}' | xargs sudo apt-get -y purge --auto-remove
+fonte
+http://tuxtweaks.com/2010/10/remove-lamp-in-ubuntu/
 
 ### Botão de Minimizar
  
