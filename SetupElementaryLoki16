@@ -8,3 +8,27 @@ sudo apt-get update
 sudo apt install adapta-gtk-theme -y
 * **Paper: Um tema no estilo Material Design para Ubuntu e Linux Mint**
 sudo add-apt-repository ppa:snwh/pulp -y && sudo apt-get update && sudo apt-get install paper-icon-theme paper-gtk-theme -y
+* **Instalando o Dropbox**
+* **Para fazer o ajuste você vai precisar do terminal e rodar um comando, basta copiar e colar:**
+git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox && bash /tmp/elementary-dropbox/install.sh
+* **Install Git**
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get remove git (para remover)
+* **Instale tudo que precisa para compactar e descompactar em sistemas Linux**
+sudo apt-get install p7zip-full p7zip-rar lzma lzma-dev rar unrar-free p7zip ark ncompress
+sudo apt-get update
+* **Install Nodejs** 
+sudo apt-get update
+sudo apt-get install nodejs
+* **Atualizando o NodeJS
+sudo npm cache clean -f
+* **2º Passo: Instalação do pacote n (Pacote para gerenciamento do Node.JS)
+sudo npm install -g n
+* **3º Passo: Atualização
+sudo n stable
+* **Pronto, sua atualização foi realizada com sucesso. Para verificar basta executar o seguinte comando:
+node -v
+v8.4.0
+* **Install VisualCode
