@@ -1,0 +1,10 @@
+* **Corrigindo inicial error "command not found"**
+sudo apt-get install software-properties-common
+* **Como instalar o elementary Tweaks no elementary OS 0.4 Loki**
+sudo add-apt-repository -y ppa:philip.scott/elementary-tweaks && sudo apt update && sudo apt install -y elementary-tweaks
+* **Adapta - Instale um tema GTK Material Design no Ubuntu**
+sudo add-apt-repository ppa:tista/adapta -y
+sudo apt-get update
+sudo apt install adapta-gtk-theme -y
+* **Paper: Um tema no estilo Material Design para Ubuntu e Linux Mint**
+sudo add-apt-repository ppa:snwh/pulp -y && sudo apt-get update && sudo apt-get install paper-icon-theme paper-gtk-theme -y
